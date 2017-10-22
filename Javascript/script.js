@@ -78,7 +78,6 @@ $('.filters ul li').click(function() {
   // $(this).addClass('active');
   $('.filters ul li').removeClass('after-click');
   $(this).addClass('after-click');
-
   var data = $(this).attr('data-filter');
   $grid.isotope({
     filter: data,
