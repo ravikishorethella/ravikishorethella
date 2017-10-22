@@ -428,6 +428,10 @@ header {
     font-size: 2rem;
     margin-top: 5%;
   }
+  .container-new {
+    width: 90%;
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -453,6 +457,10 @@ header {
   }
   .mt {
     margin-top: 10%;
+  }
+  .container-new {
+    width: 90%;
+    margin-top: 5%;
   }
 }
 
@@ -487,9 +495,10 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
   font-size: 2.2em;
   padding: 0.3em 0;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   border-bottom: 1px solid #dadada;
   letter-spacing: 3px;
   text-transform: uppercase;
