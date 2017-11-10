@@ -39,8 +39,8 @@ ul li {
 }
 
 #block1 {
-  /* background: #72c9b9; */
-  background-image: url('../images/bg7.jpg');
+  background: #31708f;
+  /* background-image: url('../images/bg7.jpg'); */
   background-size: cover;
 }
 
@@ -354,9 +354,9 @@ header {
 
 .profile-pic {
   margin-top: 15px;
-  width: 200;
+  width: 150;
   height: 150;
-  border-radius: 45%;
+  border-radius: 10%;
   text-align: center;
 }
 
