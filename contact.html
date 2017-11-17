@@ -92,20 +92,20 @@
             <!-- <h1 class="form-label">Say HELLO</h1> -->
             <form action="https://formspree.io/ravikishorethella@gmail.com" method="POST">
                 <div class="group">
-                    <input type="text" required>
+                    <input type="text" required name="name">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Name</label>
                 </div>
                 <div class="group">
-                    <input type="text" required>
+                    <input type="text" required name="_replyto">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Email</label>
                 </div>
                 <!-- Message body -->
                 <textarea class="message-form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-                <input type="submit" class="button raised btn btn-primary btn-lg">
+                <input type="submit" class="button raised btn btn-primary btn-lg" value="Send">
             </form>
         </div>
     </div>
@@ -154,6 +154,22 @@
     <div id="nanobar"></div>
     <!-- End Section Tabs -->
     <!--   Core JS Files   -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/59ebfe2d4854b82732ff6edc/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
     <script src="assets/js/jquery.min.js" type="text/javascript">
     </script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript">
