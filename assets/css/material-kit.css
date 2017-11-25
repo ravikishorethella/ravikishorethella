@@ -365,7 +365,7 @@ fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-default.active {
 .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,
 .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,
 .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover {
-    background-color: #1769ff;
+    background-color: #288cf0;
     color: #FFFFFF;
 }
 
@@ -6026,7 +6026,6 @@ h2.title {
 
 
   .form-container {
-    background: #288CF0;
     background: #FFF;
     /* border: 2px solid #288CF0; */
     padding: 40px;
