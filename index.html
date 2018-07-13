@@ -37,11 +37,10 @@
 
 <body>
     <!-- Navbar will come here -->
-
+    <!--
 
     <nav class="navbar navbar-transparent navbar-absolute">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
 
 
             <div class="navbar-header">
@@ -88,12 +87,10 @@
             </div>
         </div>
     </nav>
-    <!-- end navbar -->
 
 
     <div class="wrapper">
         <div class="container">
-            <!-- here you can add your content -->
 
 
             <div class="row">
@@ -117,23 +114,16 @@
         </div>
     </div>
 
-    <!-- Portfolio Goes Here -->
-
-    <!-- start of the portfolio section -->
-
-    <!-- projects section start -->
     <div class="portfolio section">
         <div class="container-fluid">
             <div class="top-side">
                 <h2 class="title">My Projects</h2>
-                <!-- <h2>PORTFOLIO</h2> -->
             </div>
 
             <div class="filters">
                 <ul>
                     <li class="active" data-filter="*"> All</li>
                     <li data-filter=".frontend">Vanilla.js</li>
-                    <!-- <li data-filter=".python">Python</li> -->
                     <li data-filter=".react">React.js</li>
                     <li data-filter=".dv">Data Visualization</li>
                     <li data-filter=".others">Others</li>
@@ -142,7 +132,6 @@
 
             <div class="filters-content">
                 <div class="row grid">
-                    <!-- front-end projects start -->
                     <div class="col-sm-4 all frontend">
                         <div class="item">
                             <img src="https://res.cloudinary.com/dlof5usn7/image/upload/c_scale,h_150,w_350/v1508550296/tribute-rafa_bjq4wi.png" alt="Work 1">
@@ -179,7 +168,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- react projects  -->
                     <div class="col-sm-4 all react">
                         <div class="item">
                             <img src="https://res.cloudinary.com/dlof5usn7/image/upload/c_scale,h_150,w_350/v1522944948/board_gwqi4z.png" alt="Work 1">
@@ -290,9 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end of frontend projects -->
 
-                    <!-- react projects  -->
                     <div class="col-sm-4 all react">
                         <div class="item">
                             <img src="https://res.cloudinary.com/dlof5usn7/image/upload/c_scale,h_150,w_350/v1523132941/search_kzpdsd.png" alt="Work 1">
@@ -306,7 +292,6 @@
                         </div>
                     </div>
 
-                    <!-- others (vue and node) -->
                     <div class="col-sm-4 all others">
                         <div class="item">
                             <img src="https://res.cloudinary.com/dlof5usn7/image/upload/c_scale,h_150,w_350/v1508643327/moster_fmopmd.png" alt="Work 1">
@@ -320,7 +305,6 @@
                         </div>
                     </div>
 
-                    <!-- two way chatting node app -->
                     <div class="col-sm-4 all others">
                         <div class="item">
                             <img src="https://res.cloudinary.com/dlof5usn7/image/upload/c_scale,h_150,w_350/v1522944948/chat_jwezpw.png" alt="Work 1">
@@ -339,9 +323,7 @@
 
         </div>
     </div>
-    <!-- end of the project section -->
 
-    <!-- start of the contact section -->
     <div class="section contact" id="contact">
         <div class="container">
             <div class="row sharing-area text-center ">
@@ -375,14 +357,11 @@
                     </a>
                 </div>
             </div>
-            <!--<p class="foot sharing-area text-center">© Designed and Coded by Rahul Jain</p> -->
         </div>
     </div>
 
     <div id="nanobar"></div>
-    <!-- End Section Tabs -->
-    <!--   Core JS Files   -->
-    <!--Start of Tawk.to Script-->
+
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
@@ -396,7 +375,7 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
-    <!--End of Tawk.to Script-->
+
     <script src="assets/js/jquery.min.js" type="text/javascript">
     </script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript">
@@ -412,11 +391,8 @@
 
 
     <script>
-        // projects page code
 
         $('.filters ul li').click(function () {
-            // $('.filters ul li').removeClass('active');
-            // $(this).addClass('active');
             $('.filters ul li').removeClass('after-click');
             $(this).addClass('after-click');
             var data = $(this).attr('data-filter');
@@ -433,13 +409,10 @@
             },
         });
 
-        // end of the projects page
     </script>
-
-    <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
 
     <script src="assets/js/material-kit.js" type="text/javascript">
-    </script>
+    </script> -->
 
 </body>
 
